@@ -1,14 +1,14 @@
 /*
 Wcolpick - A Web Color Picker
 
-Copyright (C) 2017-2019  firestormxyz (Salvatore Peluso)
-Find me on github: https://github.com/firestormxyz
+Copyright (C) 2017-2020  devpelux (Salvatore Peluso)
+Find me on github: https://github.com/devpelux
 Dual licensed under GPL v3.0 and MIT licenses.
 (Based on Jose Vargas' Color Picker)
 
-Description, how to use, and examples: https://github.com/firestormxyz/wcolpick
+Description, how to use, and examples: https://github.com/devpelux/wcolpick
 
-Last Edit: 2019/03/23 03:30
+Last Edit: 2020/12/06 18:53
 */
 
 
@@ -899,7 +899,7 @@ Last Edit: 2019/03/23 03:30
 		if (hsba.a === undefined) hsba.a = 1;
 		var hsbaL = {h: hsba.h, s: hsba.s / 100, b: hsba.b / 100, a: hsba.a};
 		var lightness = hsbaL.b * (2 - hsbaL.s) / 2;
-		var saturation = lightness != 0 && lightness != 1 ? ahsb.b * ahsb.s / (1 - Math.abs((2 * lightness) - 1)) : 0;
+		var saturation = lightness != 0 && lightness != 1 ? hsba.b * hsba.s / (1 - Math.abs((2 * lightness) - 1)) : 0;
 		return fixHSLA({h: hsbaL.h, s: saturation * 100, l: lightness * 100, a: hsbaL.a});
 	};
 	var hslaToHex = function (hsla) {
