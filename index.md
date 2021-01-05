@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Wcolpick
+Photoshop-like jQuery Color Picker plugin with various skins and layouts, touch, and responsive.  
 
-You can use the [editor on GitHub](https://github.com/devpelux/wcolpick/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Features
+* Photoshop-like interface.  
+* Supports RGB, HSB, Hexadecimal, and HSL.*  
+* Supports Alpha channel (opacity).  
+* 3 Variants: Standard, Small, and Extra Large.  
+* 4 Skins:  
+  * 2 Main-skins: Light and Dark.  
+  * 2 Sub-skins: Standard (without background), and Full (with an opaque background).  
+* 3 Layouts: Full, RGB + Hexadecimal, only Hexadecimal (each with or without the Select button).  
+* Compact Layout: Makes the layouts more compact, to save space.  
+* Responsive.  
+* Supports Touch.  
+* Easy to implement and customize.  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+> \* The plugin supports input/output of HSL colors, but there are no fields for choosing an HSL color.  
 
-### Markdown
+![wcolpick-dark](https://raw.githubusercontent.com/devpelux/wcolpick/master/assets/wcp-hex-dark.png "Wcolpick Dark") 
+![wcolpick-light](https://raw.githubusercontent.com/devpelux/wcolpick/master/assets/wcp-hex-light.png "Wcolpick Light")  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Complete description and documentation here:**  
+Repository wiki: [https://github.com/devpelux/wcolpick/wiki](https://github.com/devpelux/wcolpick/wiki)  
 
-```markdown
-Syntax highlighted code block
+### Latest release
+Download link: [https://github.com/devpelux/wcolpick/releases/latest](https://github.com/devpelux/wcolpick/releases/latest)  
 
-# Header 1
-## Header 2
-### Header 3
+### Requirements
+This plugin requires **jQuery 1.7.0** or later.  
+Latest version of jQuery (if you need it): [https://code.jquery.com](https://code.jquery.com)  
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### License
+Copyright (C) 2017-2020  devpelux (Salvatore Peluso)  
+Licensed under GPL v3.0 license.  
+(Based on Jose Vargas' [Color Picker](https://github.com/josedvq/colpick-jQuery-Color-Picker))  
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devpelux/wcolpick/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[![gplv3](https://www.gnu.org/graphics/gplv3-88x31.png "Licensed under GPL v3.0")](https://github.com/devpelux/wcolpick/blob/master/LICENSE)
