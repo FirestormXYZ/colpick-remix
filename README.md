@@ -17,8 +17,8 @@ Photoshop-like jQuery Color Picker plugin with various skins and layouts, touch,
 
 > \* The plugin supports input/output of HSL colors, but there are no fields for choosing an HSL color.  
 
-![wcolpick-dark](https://raw.githubusercontent.com/devpelux/wcolpick/master/assets/wcp-hex-dark.png "Wcolpick Dark") 
-![wcolpick-light](https://raw.githubusercontent.com/devpelux/wcolpick/master/assets/wcp-hex-light.png "Wcolpick Light")  
+![wcolpick-dark](https://raw.githubusercontent.com/devpelux/wcolpick/main/assets/wcp-hex-dark.png "Wcolpick Dark") 
+![wcolpick-light](https://raw.githubusercontent.com/devpelux/wcolpick/main/assets/wcp-hex-light.png "Wcolpick Light")  
 
 **Complete description and documentation here:**  
 Repository wiki: [https://github.com/devpelux/wcolpick/wiki](https://github.com/devpelux/wcolpick/wiki)  
@@ -36,4 +36,4 @@ Copyright (C) 2017-2020  devpelux (Salvatore Peluso)
 Licensed under GPL v3.0 license.  
 (Based on Jose Vargas' [Color Picker](https://github.com/josedvq/colpick-jQuery-Color-Picker))  
 
-[![gplv3](https://www.gnu.org/graphics/gplv3-88x31.png "Licensed under GPL v3.0")](https://github.com/devpelux/wcolpick/blob/master/LICENSE)
+[![gplv3](https://www.gnu.org/graphics/gplv3-88x31.png "Licensed under GPL v3.0")](https://github.com/devpelux/wcolpick/blob/main/LICENSE)
